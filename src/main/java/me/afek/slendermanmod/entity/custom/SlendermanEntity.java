@@ -53,4 +53,9 @@ public class SlendermanEntity extends BaseEntity implements IAnimatable {
     public AnimationFactory getFactory() {
         return this.factory;
     }
+
+    @Override
+    public void checkDespawn() {
+        //No Support Yet
+    }
 }
